@@ -19,7 +19,6 @@ days = 35
 stock_prices = generate_stock_data(days)
 
 x = np.arange(1, days + 1)
-
 plt.figure(figsize=(10, 5))
 plt.plot(x, stock_prices, linestyle='-', color='b')
 plt.title('Stock Price Simulation')
