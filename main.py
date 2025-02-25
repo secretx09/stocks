@@ -12,7 +12,6 @@ def generate_stock_data(days):
         change_percent = np.random.normal(0, 1)
         new_price = prices[-1] * (1 + change_percent / 100)
         prices.append(new_price)
-
     return prices
 
 days = 35
